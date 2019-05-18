@@ -1,0 +1,399 @@
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+
+}
+ 
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_container{
+	width: 1000px;
+	height:598px;
+	background-color:#EAEAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+
+.calculator{
+    width: 343px;
+    height: 527px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.operator_section{
+    width: 343px;
+    background-color:#FFFFFF;
+    flex:1;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cross{
+    position: absolute;
+    margin-top: 15px;
+    margin-right:20px;
+}
+
+.border{
+    border: 0.5px solid #eaeaea;
+    width:331.87px;
+    position: absolute;
+    margin-top:80px;
+}
+
+
+.numeric_section{
+    width: 343px;
+    background-color:#F2F2F2;
+    flex:1.5;
+    display: flex;
+    
+}
+
+
+.left_section{
+    //background-color: yellow;
+    flex: 2.5;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    
+
+   
+    
+}
+
+.col1{
+    flex:1;
+    //background-color: purple;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+    
+}
+
+
+.font_increase{
+    font-size: 30px;
+}
+
+.font_increase:hover{
+    color:white;
+}
+
+.back:hover{
+    background-color:white;
+    
+}
+.circle1{
+    height:56px;
+    width:56px;
+    background-color: #C4C4C4;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle1:hover{
+    background-color:#696969;
+    cursor:pointer;
+}
+
+.circle2{
+    height:56px;
+    width:56px;
+    background-color: #C4C4C4;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle2:hover{
+    background-color:#696969;
+    cursor:pointer;
+}
+
+.circle3{
+    height:56px;
+    width:56px;
+    background-color: #C4C4C4;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle3:hover{
+    background-color:#696969;
+    cursor:pointer;
+}
+
+.circle4{
+    height:56px;
+    width:56px;
+    background-color: #C4C4C4;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle4:hover{
+    background-color:#696969;
+    cursor:pointer;
+}
+.circle5{
+    height:56px;
+    width:56px;
+    background-color: #C4C4C4;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle5:hover{
+    background-color:#696969;
+    cursor:pointer;
+}
+
+.circle6{
+    height:56px;
+    width:56px;
+    background-color: #C4C4C4;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle6:hover{
+    background-color:#696969;
+    cursor:pointer;
+}
+
+.circle7{
+    height:56px;
+    width:56px;
+    background-color: #C4C4C4;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle7:hover{
+    background-color:#696969;
+    cursor:pointer;
+}
+
+.circle8{
+    height:56px;
+    width:56px;
+    background-color: #C4C4C4;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle8:hover{
+    background-color:#696969;
+    cursor:pointer;
+}
+.circle9{
+    height:56px;
+    width:56px;
+    background-color: #C4C4C4;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle9:hover{
+    background-color:#696969;
+    cursor:pointer;
+}
+
+.circle10{
+    height:56px;
+    width:56px;
+    background-color: #C4C4C4;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle10:hover{
+    background-color:#696969;
+    cursor:pointer;
+}
+.circle11{
+    height:56px;
+    width:56px;
+    background-color: #C4C4C4;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle11:hover{
+    background-color:#696969;
+    cursor:pointer;
+}
+
+.circle12{
+    height:56px;
+    width:56px;
+    background-color: #C4C4C4;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.circle12:hover{
+    background-color:#696969;
+    cursor:pointer;
+}
+.col2{
+    flex:1;
+    //background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col3{
+    flex:1;
+    //background-color:greenyellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.col4{
+    flex:1;
+    //background-color:hotpink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right_section{
+    //background-color: green;
+    flex:1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+.operator_container{
+    height: 295px;
+    width:53.14px;
+    background-color:#ED4135;
+    border-radius: 50px;
+    margin-left:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+//.operator_container:hover{
+      background-color:#8d0f06;
+}
+
+.divide{
+    background-image: url("divide.png");
+    background-size: contain;
+    width:18px;
+    height:18px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divide:hover{
+    background-image: url("divide_black.png");
+    background-size: contain;
+
+}
+
+.multiply{
+    background-image: url("multiply.png");
+    background-size: contain;
+    width:18px;
+    height:18px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.multiply:hover{
+    background-image: url("multiply_grey.png");
+    background-size: contain;
+ 
+}
+
+.minus{
+    background-image: url("minus.png");
+    background-size: contain;
+    width:18px;
+    height:18px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minus:hover{
+    background-image: url("minus_black.png");
+    background-size: contain;
+
+}
+
+
+.add{
+    background-image: url("add.png");
+    background-size: contain;
+    width:18px;
+    height:18px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add:hover{
+    background-image: url("add_black.png");
+    background-size: contain;
+
+}
